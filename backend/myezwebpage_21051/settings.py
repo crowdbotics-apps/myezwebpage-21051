@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     "driver",
     "menu",
     "delivery_user_profile",
+    "event",
 ]
 LOCAL_APPS = [
     "home",

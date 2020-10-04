@@ -39,6 +39,8 @@ urlpatterns = [
     path("menu/", include("menu.urls")),
     path("api/v1/", include("delivery_user_profile.api.v1.urls")),
     path("delivery_user_profile/", include("delivery_user_profile.urls")),
+    path("api/v1/", include("event.api.v1.urls")),
+    path("event/", include("event.urls")),
 ]
 
 admin.site.site_header = "MYEZWEBPAGE"
